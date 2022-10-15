@@ -1,0 +1,15 @@
+{
+  "name": "ytu",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.1.11"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

@@ -1,0 +1,8 @@
+name = "ytuyemek"
+main = "src/index.js"
+compatibility_date = "2022-10-15"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
