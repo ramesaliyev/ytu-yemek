@@ -102,7 +102,7 @@ async function fetchMenu(day, month, year) {
   const targetDate = getTargetDateString(day,month,year)
   const readableTargetDate = targetDate.split('-').join('/')
 
-  const url = `http://www.beslenme.yildiz.edu.tr/yemekMenusu/${month}/${year}`
+  const url = `http://www.beslenme.yildiz.edu.tr/yemekMenusu/${+month}/${year}`
   const page = await fetch(url);
   const html = await page.text()
   const $ = cheerio.load(html);
