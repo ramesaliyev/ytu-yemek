@@ -1,4 +1,4 @@
-Simple menu fetcher for Yildiz Technical University. Serves menu as text. Useful for using in automation, such as IOS automations.
+Simple menu fetcher for Yildiz Technical University. Serves menu as text. Useful for using in automation, such as IOS automations. Works on top of [cloudflare's workers](https://workers.cloudflare.com/).
 
 #### API
     
