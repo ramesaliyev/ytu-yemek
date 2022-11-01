@@ -16,3 +16,9 @@ Simple menu fetcher for Yildiz Technical University. Serves menu as text. Useful
     # Full date.
     https://ytuyemek.rx.workers.dev/<day>/<month>/<year>
     https://ytuyemek.rx.workers.dev/09/05/2022
+
+#### Wrangler
+
+    $ wrangler login
+    $ wrangler dev
+    $ wrangler publish

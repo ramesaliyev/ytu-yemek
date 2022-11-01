@@ -16,6 +16,8 @@ let CACHE_SIZE = 100
 let CACHE_ENABLED = true
 
 function getTargetDateString(day, month, year) {
+  day = String(day).padStart(2, '0')
+  month = String(month).padStart(2, '0')
   return `${day}-${month}-${year}`
 }
 
